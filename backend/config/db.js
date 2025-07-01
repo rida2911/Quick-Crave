@@ -6,7 +6,8 @@ dotenv.config();                       // loads .env variables
 // NOTE: keep your URI in .env for safety
 const MONGO_URI =
   process.env.MONGODB_URI ||
-  "mongodb+srv://ridajahan:Ridaah2911@cluster0.pckmbpl.mongodb.net/QuickCrave";
+ const URI = "mongodb+srv://username:password@cluster0.mongodb.net/Quickcrave";
+
 
 export const connectDB = async () => {
   try {
